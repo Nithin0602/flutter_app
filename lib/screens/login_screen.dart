@@ -94,9 +94,9 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
     super.dispose();
   }
 
-  Color get _primaryColor => _isDarkMode ? Color(0xFF64B5F6) : Color(0xFF2196F3);
-  Color get _secondaryColor => _isDarkMode ? Color(0xFF4DB6AC) : Color(0xFF00BCD4);
-  Color get _backgroundColor => _isDarkMode ? Color(0xFF121212) : Color(0xFFF5F7FA);
+  Color get _primaryColor => _isDarkMode ? Color(0xFF4DB6AC) : Color(0xFF4DB6AC);
+  Color get _secondaryColor => _isDarkMode ? Color(0xFF4DB6AC) : Color(0xFF4DB6AC);
+  Color get _backgroundColor => _isDarkMode ? Color(0xFF4DB6AC) : Color(0xFF4DB6AC);
   Color get _surfaceColor => _isDarkMode ? Color(0xFF1E1E1E) : Color(0xFFFFFFFF);
   Color get _textColor => _isDarkMode ? Color(0xFFE0E0E0) : Color(0xFF263238);
   Color get _hintColor => _isDarkMode ? Color(0xFF9E9E9E) : Color(0xFF78909C);
